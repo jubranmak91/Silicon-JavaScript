@@ -1,0 +1,3 @@
+Det som inte följer skolans metoder, förutom användarens bilder, är:
+
+Rendering av stjärnor: Jag använde [...Array(testimonial.starRating)] för att rendera fyllda stjärnor, vilket kan avvika från skolans exakta metod om den har specificerat att använda Array.from() istället.
