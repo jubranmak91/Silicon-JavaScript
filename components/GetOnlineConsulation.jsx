@@ -1,54 +1,3 @@
-// import React from 'react'
-
-// const GetOnlineConsulation = () => {
-//   return (
-//     <>
-    
-//     <div className="consulation">
-
-//           <h2 className="h2 get">Get Online Consulation</h2>
-
-
-//           <form id="regForm" className="reg-form space-y-2">
-//             <div className="input-group">
-//               <label htmlFor="firstName" className="form-lable">Full Name</label>
-//               <input type="text" id="firstName" className="form-input" required />
-//             </div>
-
-//             <div className="input-group">
-//               <label htmlFor="firstName" className="form-lable">Email address</label>
-//               <input type="text" id="firstName" className="form-input" required />
-//             </div>
-
-//             <div className="input-group">
-//               <label htmlFor="specialist" className="form-label">Specialist</label>
-//               <div className="input-container">
-//                 <input type="text" id="specialist" className="form-input" required />
-//                 <i className="fa-solid fa-chevron-down"></i>
-//               </div>
-//             </div>
-
-//           </form>
-
-//           <div className="apointement">
-//             <a className="btn btn-primary" href="#">Make an apointement</a>
-//           </div>
-          
-//         </div>
-    
-    
-//     </>
-//   )
-// }
-
-// export default GetOnlineConsulation
-
-
-
-
-
-
-
 import React, { useState } from 'react';
 
 const GetOnlineConsulation = () => {
@@ -147,7 +96,7 @@ const GetOnlineConsulation = () => {
         </div>
 
         <div className="input-group">
-          <label htmlFor="specialist" className="form-label">Specialist</label>
+          <label htmlFor="specialist" className="form-lable">Specialist</label>
           <input type="text" id="specialist" name="specialist" className="form-input" value={formData.specialist} onChange={handleInputChange} required
           />
           {errors.specialist && <p className="error-message">{errors.specialist}</p>}

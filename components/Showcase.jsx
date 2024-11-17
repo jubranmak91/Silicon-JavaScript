@@ -3,7 +3,7 @@ import React from 'react';
 import LogoN5 from '../assets/Images/applepayplogo.svg'
 import LogoN6 from '../assets/Images/applepayplogodarkmode.svg'
 import LogoN7 from '../assets/Images/googlepaylogo.svg'
-import LogoN8 from '../assets/Images/applepayplogodarkmode.svg'
+import LogoN8 from '../assets/Images/googlepaylogodarkmode.svg'
 import LogoN9 from '../assets/Images/2mobiles with bankcards.png'
 
 
@@ -29,7 +29,7 @@ const ShowCase = () => {
               <a href="#" className="store-btn">
                 <span className="sr-only">get it on google</span>
                 <img className="show-light" src={LogoN7} alt="googleplaylogo" />
-                <img className="show-dark" src={LogoN8} alt="appstorelogodarkmode" />
+                <img className="show-dark" src={LogoN8} alt="googlepaylogodarkmode" />
               </a>
             </div>
 

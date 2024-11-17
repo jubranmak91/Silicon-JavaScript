@@ -1873,7 +1873,15 @@ gap: 1.5rem;
 }
 
 
+
+.consulation {
+    .form-lable {
+        color: var(--clr-text-heading);
+    }
+}
+
 .reg-form {
+
 
     p {
         color: red;
@@ -1912,7 +1920,7 @@ gap: 1.5rem;
 .bold {
     font-size: 1rem;
     font-weight: 600;
-    color: rgba(11, 15, 25, 1);
+    color: var(--clr-text-navigation);
 }
 
 .socialmedia {
