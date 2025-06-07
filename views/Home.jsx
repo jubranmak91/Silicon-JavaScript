@@ -1,6 +1,6 @@
 import AppBenefits from "../components/AppBenefits";
 import Featurs from "../components/Featurs";
-import HowDoesItWork from "../components/Howdoesitwork";
+
 import Logos from "../components/Logos";
 import Nav from "../components/Nav";
 import Questions from "../components/Bottom";
@@ -26,7 +26,7 @@ const Home = () => {
         <ShowCase />
         <Logos />
         <Featurs />
-        <HowDoesItWork />
+
         <AppBenefits />
         <Reviews />
         <Bottom />
